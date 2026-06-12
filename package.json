@@ -2,9 +2,8 @@
   "name": "projeto-dia-dos-namorados",
   "version": "1.0.0",
   "description": "Site estático para apresentar uma mensagem de Dia dos Namorados.",
-  "main": "index.html",
   "scripts": {
-    "build": "echo \"No build needed for static site.\""
+    "build": "node build.js"
   },
   "license": "MIT"
 }
