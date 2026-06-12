@@ -1,0 +1,16 @@
+{
+  "name": "projeto-dia-dos-namorados",
+  "version": "1.0.0",
+  "description": "Site estático para apresentar uma mensagem de Dia dos Namorados.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -s",
+    "dev": "npx live-server --port=3000 --host=0.0.0.0",
+    "build": "echo \"Este projeto é um site estático. Nenhum build é necessário.\""
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.0"
+  },
+  "license": "MIT"
+}
